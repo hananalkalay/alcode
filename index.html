@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <body>
+<!--=================
+        DATA
+==================-->
+            <head>
+                <title>codeware.</title>
+                <meta name="description"           
+                content="We Create Magnificent Websites">
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=100,user-scalable=yes">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
+                <link href="Style.css" rel="stylesheet" type="text/css">
+                <script src="https://kit.fontawesome.com/b48f7c5c27.js" crossorigin="anonymous"></script>
+
+            </head>
+
+    <!--=================
+            NAVBAR
+    ==================-->
+
+            <nav class="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                <a href="index.html" class="logo"><strong>code</strong>ware.</a>
+                <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="index.html" class="nav-links">Home</a>
+                </li>
+                <li>
+                    <a href="projects.html" class="nav-links">Projects</a>
+                </li>
+                <li>
+                    <a href="aboutus.html" class="nav-links">About Us</a>
+                </li>
+                <li>
+                    <a href="#form" class="nav-links">Contact Us</a>
+                </li>
+
+                </ul>
+            </nav>
+
+
+
+    <script>let mainNav = document.getElementById("js-menu");
+        let navBarToggle = document.getElementById("js-navbar-toggle");
+        
+        navBarToggle.addEventListener("click", function() {
+        mainNav.classList.toggle("active");
+        });</script>
+
+
+
+    <!--=================
+            HEADER
+    ==================-->
+            <header>
+                <div class="sec1">
+                    <h2>We Create Magnificent Websites</h2>
+                    <p>the best coding & design firm,<br>we here for you.</p>
+                    <a href="#form">
+                        <button class="btn">Send a massege<button>
+                    <a href="projects.html">
+                        <button class="btn2">Our Projects</button>
+                    </a>
+
+                </div>
+
+                <div class="sec2">
+                    <img class="img" src="/Images/example-scene-1.svg" alt="Website Developmer">
+                </div>
+            </header>
+
+
+    <!--=================
+            SRVICES
+    ==================-->
+
+            <div class="sec5">
+                <div class="services">
+                    <h2>Make A Plan</h2>
+                    <p>The best UI\UX designers will create your website design</p>
+                    <img class="img2" src="Images/graph-man.svg">
+                </div>
+                <div class="services">
+                    <h2>UI/UX Design</h2>
+                    <p>The best web developers will create your magnificent website</p>
+                    <img class="img2" src="Images/laptop-2.svg">
+                </div>
+                <div class="services">
+                    <h2>Build & Code</h2>
+                    <p>The best web developers will create your magnificent website</p>
+                    <img class="img2" src="Images/example-scene-2.svg">
+                </div>
+            </div>
+
+
+
+    <!--=================
+        PARALEX
+    ==================-->
+            <div class="sec6">
+                <h1><strong> Coding & Designing</strong><br> we do it all!</h1>
+            </div>
+
+
+    <!--=================
+        MISSIONS
+    ==================-->
+
+            <div class="content1">
+                <img id="image1" src="Images/imac.svg">
+                <h3 class="headline">
+                Responsive & Modern websites
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+
+            <div class="content1">
+                <img id="image2" src="Images/typing-modal.svg">
+                <h3 class="headline">
+                    Collaboration
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+<!--=================
+        PROJECTS
+==================-->
+
+        <div class="sec7">
+            <h1>Our Projects</h1>
+            <div class="row">
+                <div class="column">
+                    <img src="Images/website5.jpg" alt="Snow" class="img3" style="width:100%">
+                        <div class="overlay">
+                            Quick-dev website
+                        </div>
+                </div>
+
+                <div class="column">
+                    <img src="Images/website7.jpg" alt="Forest" class="img3" style="width:100%">
+                        <div class="overlay">
+                            Online courses website
+                        </div>
+                </div>
+
+                <div class="column">
+                    <img src="Images/website8.jpg" alt="Mountains" class="img3" style="width:100%">
+                        <div class="overlay">
+                            Self development website
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="center">
+                <a href="projects.html"><button class="btn3">
+                    Click to see all projects
+                </button></a>
+            </div>
+        </div>
+
+
+
+<!--=================
+        TECH
+==================-->
+<!--<div class="row1">
+    <div class="column3">
+      <img src="/Images/photoshop.png" alt="HTML5" class="js" style="width:40%">
+    </div>
+    <div class="column3">
+      <img src="/Images/illustrator.png" alt="HTML5" class="js" style="width:40%">
+    </div>
+      <div class="column3">
+        <img src="/Images/html2.png" alt="HTML5" class="js" style="width:40%">
+      </div>
+      <div class="column3">
+        <img src="/Images/css3.png" alt="CSS3" class="js" style="width:30%">
+      </div>
+      <div class="column3">
+        <img src="/Images/java.png" alt="JavaScript" class="js" style="width:40%">
+      </div>
+    </div> -->
+
+
+<!--=================
+      ABOUT US
+==================-->
+        <div class="content2">
+            <div class="pillar">
+                <h1>Founder</h1>
+                <h2>Hanan Alkalay</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque commodi ea, soluta veniam quo nesciunt doloremque iure aliquam voluptate laboriosam labore vero officia amet? Ut cum labore saepe voluptatibus distinctio!</p>
+            </div>
+            <div class="pillar">
+                <img class="founder" src="/Images/hanan.jpg" alt="Founder">
+            </div>
+        </div>
+
+
+<!--=================
+        FORM
+==================-->
+        <div id="form" class="content1">
+            <img id="image3" src="/Images/email-notification.svg">
+            <h3 class="headline2">
+                Contact Us Right Now
+            </h3>
+
+            <div class="container4">
+                <form action="form.php" method="POST">
+                <label for="fname">Your Name\Company Name</label>
+                <input type="text" i  d="fname" name="firstname" placeholder="Your name.." required>
+            
+                <label for="lname">Email</label>
+                <input type="text" id="lname" name="email" placeholder="Your email.." required>
+            
+                <label for="country">Country</label>
+                <select id="country" name="country" required>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="israel">Israel</option>
+                    <option value="isreland">Ireland</option>
+                    <option value="england">England</option>
+                    <option value="russia">Russia</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="How can we help you..." style="height:200px" required></textarea>
+            
+                <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+
+
+
+<!--=================
+         MAP
+==================-->
+
+
+
+
+    </body>
+</html> 
